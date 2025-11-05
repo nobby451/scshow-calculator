@@ -92,6 +92,7 @@ izumi	蒼のツバメ		6180	7020	4080	480	ur	fever_start	score_up(418.5)	vol_up(
 ginko	蒼のツバメ		6240	6900	4200	480	ur	start	ap_up(10)	skill_count <= 2 ^ vol_buff(364.5); skill_count >= 2 ^ vol_buff(243); skill_count >=3 ^ splice()	10	appeal_up(all, 72)
 rurino	一生に夢が咲くように		7260	5640	4260	490	ur	fever_start	vol_up(348)	score_buff(348.75); mental_rate >= 100 ^ vol_up(627); ap_up(10); splice()	12	appeal_up(miracra, 200)
 ginko	一生に夢が咲くように		7080	5760	4320	490	ur	start	ap_up(12)	ap_up(6); skill_count >= 6 ^ score_buff(123.75);	2	appeal_up(cerise, 200)
+kosuzu	一生に夢が咲くように		6960	5460	4740	490	ur	start	vol_up(348)	vol_up(348); skill_count <= 1 ^ vol_up(627); skill_count >= 2 ^ splice()	18	appeal_up(all, 72)
 rurino	バイタルサイン		7260	5160	4860	480	ur	fever_start	vol_up(348)	skill_count <= 3 ^ vol_buff(138); skill_count <= 3 ^ reset(); skill_count >=4 ^ score_buff(138)	4	appeal_up(all, 80)
 hime	バイタルサイン		7320	5040	4920	480	ur	fever_start	ap_up(12)	mental_rate <= 1 ^ score_up(837); mental_rate <= 1 ^ score_buff(341.25); mental_up(25*)	13	appeal_up(all, 80)
 izumi	四蓮琴之龍		4740	5820	4800	400	sr	start	vol_up(251)	vol_up(145); skill_count <= 2 ^ ap_up(5); skill_count >= 3 ^ score_buff(86.94)	8	appeal_up(all, 60)
