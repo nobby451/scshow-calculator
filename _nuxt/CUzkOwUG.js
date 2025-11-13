@@ -74255,7 +74255,7 @@ megumi	久遠の銀河へ		7200	4920	4800	510	ur	fever_start	score_up(204.75); s
 kaho	アイドゥーミー！		6000	6240	6960	520	ur	end	score_up(418.5)	mental_up(10*); mental_rate >= 100 ^ score_up(1134); mental_rate <= 99 ^ vol_down(1000*)	12	appeal_up(all, 72)
 sayaka	アイドゥーミー！		6120	6960	6120	520	ur	fever_start	score_up(877.5); mental_rate <= 99 ^ vol_down(1000*)	skill_count <= 1 ^ vol_buff(78.75); skill_count >= 2 ^ score_buff(243); mental_rate >= 100 ^ vol_up(945); mental_rate <= 99 ^ vol_down(1000*)	14	appeal_up(dollche, 200)
 kozue	輪廻の銀河へ		5160	4680	7440	480	ur	fever_start	ap_up(8); skill_count >= 6 ^ ap_up(8)	skill_count <= 3 ^ vol_buff(324); skill_count <= 3 ^ reset(); skill_count >= 4 ^ score_buff(324)	10	appeal_up(g102, 200);ap_reduce(all, 2)
-ceras	16th Birthday		5760	5760	5760	480	br	start	ap_up(10)	ap_up(5); vol_buff(54.45); reset(); skill_count >= 3 ^ splice()	0	appeal_up(ceras, 400)
+ceras	16th Birthday		5760	5760	5760	480	br	start	ap_up(10)	ap_up(5*); vol_buff(54.45); reset(); skill_count >= 3 ^ splice()	0	appeal_up(ceras, 400)
 tsuzuri	幸せのリボン		5760	5160	8520	500	lr	fever_start	vol_up(478)	vol_up(731); total_skill_count >= 10 ^ vol_up(1170); lr_tsuzuri(); splice()	20	appeal_up(g102, 200); ap_reduce(all, 1); cooltime_reduce(2)
 sayaka	真実の舞踏会		5160	4080	7920	490	ur	fever_start	vol_up(170); mental_rate >= 50 ^ vol_up(238)	vol_lv <= 8 ^ vol_up(326); vol_lv >= 7 ^ score_buff(558); vol_lv >= 7 ^ vol_down(50*)	10	appeal_up(g103, 200); ap_reduce(all, 2)
 kaho	軌跡の舞踏会		7680	5760	3960	470	ur	end	score_up(204.75); vol_lv >= 4 ^ score_up(286.65)	vol_lv <= 8 ^ score_buff(243); vol_lv >= 7 ^ score_up(522)	10	appeal_up(g103, 200); ap_reduce(all, 2)
