@@ -101,6 +101,7 @@ izumi	四蓮琴之龍		4740	5820	4800	400	sr	start	vol_up(251)	vol_up(145); skil
 ginko	17th birthday		5760	5760	5760	480	br	start	ap_up(8); mental_down(30*)	mental_rate >= 10 ^ mental_down(30*); mental_rate <= 10 ^ ap_up(20); mental_rate <= 10 ^ splice()	0	appeal_up(ginko, 400)
 kosuzu	はじまりの羽音		4440	5520	7560	460	ur	start	mental_down(90)	vol_up(390);mental_rate <= 10 ^ vol_up(860);skill_count <= 1 ^ splice()	18	appeal_up(dollche, 200)
 sayaka	はじまりの羽音		4200	5400	7920	460	ur	start	ap_up(12)	skill_count <= 3 ^ vol_buff(30);skill_count >= 4 ^ score_buff(30);skill_count >= 4 ^ ap_up(4)	0	appeal_up(dollche, 200)
+hime	はじまりの羽音		4440	6000	6960	470	ur	fever_start	mental_down(60)	mental_rate >= 1 ^ mental_down(30*); mental_rate <= 1 ^ score_buff(543.75)	10	appeal_up(all, 72)
 ceras	シアター生き様		7200	5340	4500	500	ur	start	ap_up(12)	ap_up(8); score_buff(61.87); total_skill_count >= 10 ^ splice()	2	appeal_up(edel, 200)
 izumi	シアター生き様		7080	5340	4620	500	ur	fever_start	score_up(418.5)	total_skill_count >= 20 ^ score_up(837); score_up(103.5)	12	appeal_up(edel, 200)
 kosuzu	ガランドFlash		4080	5640	7260	505	ur	fever_start	vol_up(348)	skill_count <= 5 ^ ap_down(10*);skill_count <= 5 ^ score_buff(519.75);skill_count >= 6 ^ score_up(1260)	6	appeal_up(dollche, 200)
